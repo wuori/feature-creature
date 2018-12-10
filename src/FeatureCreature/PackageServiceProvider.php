@@ -20,7 +20,7 @@ class PackageServiceProvider extends ServiceProvider {
      * 
      * @var  string
      */
-    protected $packageName = 'package';
+    protected $packageName = 'featurecreature';
 
     /**
      * A list of artisan commands for your package

@@ -1,12 +1,16 @@
 {
-    "name": "vendor/package",
-    "description": "",
-    "keywords": [],
-    "homepage": "",
+    "name": "wuori/feature-creature",
+    "description": "A simple coverage reporting suite for feature tests in Laravel.",
+    "keywords": [
+        "laravel"
+        "testing"
+        "coverage"
+    ],
+    "homepage": "https://github.com/wuori/feature-creature.git",
     "authors": [
         {
-            "name": "",
-            "email": ""
+            "name": "Michael Wuori",
+            "email": "michael.wuori@gmail.com"
         }
     ],
     "require": {
@@ -18,7 +22,7 @@
     },
     "autoload": {
        "psr-4": {
-            "Vendor\\Package\\": "src/Package"
+            "Vendor\\Package\\": "src/FeatureCreature"
         }
     },
     "autoload-dev": {
